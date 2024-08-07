@@ -9,11 +9,11 @@ import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Contact us";
+const title: string = "Contáctenos";
 const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
-const formTitle: string = "Fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+  "¿Tiene preguntas o desea reservar una habitación? Contáctenos y juntos haremos que su estancia sea perfecta con nuestros servicios y comodidades.";
+const formTitle: string = "Complete el formulario a continuación";
+const formSubTitle: string = "Le responderemos en 1-2 días hábiles.";
 ---
 
 <!-- Contact Us -->
@@ -44,26 +44,26 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
                 id="hs-firstname-contacts"
-                label="First Name"
+                label="Nombre"
                 name="hs-firstname-contacts"
               />
               <TextInput
                 id="hs-lastname-contacts"
-                label="Last Name"
-                name="hs-firstname-contacts"
+                label="Apellido"
+                name="hs-lastname-contacts"
               />
             </div>
-            <EmailContactInput id="hs-email-contacts" />
-            <PhoneInput id="hs-phone-number" />
+            <EmailContactInput id="hs-email-contacts" label="Correo Electrónico" />
+            <PhoneInput id="hs-phone-number" label="Número de Teléfono" />
             <TextAreaInput
               id="hs-about-contacts"
-              label="Details"
+              label="Detalles de la Reserva"
               name="hs-about-contacts"
             />
           </div>
 
           <div class="mt-4 grid">
-            <AuthBtn title="Send Message" />
+            <AuthBtn title="Enviar Mensaje" />
           </div>
 
           <div class="mt-3 text-center">
@@ -77,38 +77,38 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
       <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Knowledgebase"
-          content="Browse through all of our knowledgebase articles."
+          heading="Base de Conocimientos"
+          content="Explore todos nuestros artículos de la base de conocimientos."
           isLinkVisible={true}
-          linkTitle="Visit guides & tutorials"
+          linkTitle="Visitar guías y tutoriales"
           linkURL="#"
           isArrowVisible={true}
           ><Icon name="question" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="FAQ"
-          content="Explore our FAQ for quick, clear answers to common queries."
+          heading="Preguntas Frecuentes"
+          content="Consulte nuestras preguntas frecuentes para obtener respuestas rápidas y claras a preguntas comunes."
           isLinkVisible={true}
-          linkTitle="Visit FAQ"
+          linkTitle="Visitar Preguntas Frecuentes"
           linkURL="#"
           isArrowVisible={true}
           ><Icon name="chatBubble" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Visit our office"
-          content="UK ScrewFast"
+          heading="Visite nuestra oficina"
+          content="Hotel San José del Valle"
           isAddressVisible={true}
-          addressContent="72 Union Terrace, E10 4PE London"
+          addressContent="Av. Principal 123, Colonia Centro, Ciudad, País"
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Contact us by email"
-          content="Prefer the written word? Drop us an email at"
+          heading="Contáctenos por correo electrónico"
+          content="¿Prefiere escribirnos? Envíenos un correo a"
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
+          linkTitle="reservas@hotelsanjosedelvalle.com"
           linkURL="#"
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>

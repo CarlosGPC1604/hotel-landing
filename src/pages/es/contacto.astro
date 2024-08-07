@@ -1,0 +1,32 @@
+---
+// Importar los componentes necesarios
+import MainLayout from "@/layouts/MainLayout.astro";
+import ContactSection from "@components/sections/misc/ContactSection.astro";
+import { SITE } from "@data/constants";
+
+const pageTitle: string = `Contacto | ${SITE.title}`;
+---
+
+<!--Utilizando MainLayout para la estructura exterior de la página y definiendo meta para propósitos de SEO-->
+<MainLayout
+  title={pageTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://screwfast.uk/contact",
+    "url": "https://screwfast.uk/contact",
+    "name": "Contáctenos | ScrewFast",
+    "description":
+      "¿Tiene preguntas o desea discutir una reserva? Contáctenos y juntos crearemos la experiencia perfecta con nuestros servicios y comodidades.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "url": "https://screwfast.uk",
+      "name": "Hotel San José del Valle",
+      "description":
+        "Hotel San José del Valle ofrece alojamiento de primera calidad y servicios exclusivos para profesionales, asegurando una estancia productiva y placentera.",
+    },
+    "inLanguage": "es_MX"
+  }}
+>
+  <ContactSection />
+</MainLayout>

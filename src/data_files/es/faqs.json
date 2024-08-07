@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Pregúntenos cualquier cosa sobre nuestro hotel y servicios, y obtenga respuestas claras y precisas.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "¿Qué tipos de habitaciones ofrece el Hotel San José del Valle?",
+      "answer": "El Hotel San José del Valle ofrece seis suites exclusivas, cada una equipada con comodidades modernas para garantizar una estancia confortable. Nuestras suites incluyen opciones como camas king size, áreas de estar, y baños en suite con productos de alta gama."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "¿Puedo hacer una reserva para una estancia prolongada?",
+      "answer": "Sí, ofrecemos tarifas especiales para estancias prolongadas. Por favor, contáctenos directamente para discutir sus necesidades y obtener una cotización personalizada para su reserva extendida."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "¿Qué servicios adicionales están incluidos en la tarifa de la habitación?",
+      "answer": "La tarifa de la habitación incluye acceso a Wi-Fi gratuito, desayuno buffet diario, y acceso a nuestras instalaciones de bienestar, como el gimnasio y el spa. También ofrecemos servicios de limpieza diaria y atención personalizada para garantizar su confort."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "¿Qué opciones de transporte están disponibles cerca del hotel?",
+      "answer": "El hotel está bien ubicado cerca de estaciones de transporte público, incluyendo autobuses y trenes. Además, ofrecemos servicios de transporte al aeropuerto y alquiler de vehículos a través de nuestros socios locales para su conveniencia."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "¿El hotel ofrece servicios para eventos y reuniones?",
+      "answer": "Sí, contamos con salas de reuniones y espacios para eventos que pueden ser adaptados para diferentes tipos de reuniones, conferencias y celebraciones. Contáctenos para conocer más sobre nuestras opciones de espacio y servicios adicionales para eventos."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "¿Cómo puedo cancelar o modificar mi reserva?",
+      "answer": "Puede cancelar o modificar su reserva a través de nuestro sitio web o llamando a nuestro equipo de atención al cliente. Le recomendamos hacerlo con al menos 24 horas de antelación para evitar cargos por cancelación. Consulte nuestra política de cancelación para obtener detalles específicos."
     }
   ]
 }

@@ -4,7 +4,7 @@ const navBarLinks = [
   { name: "Productos", url: "/es/productos" },
   { name: "Servicios", url: "/es/servicios" },
   { name: "Blog", url: "/es/blog" },
-  { name: "Contacto", url: "/es/contacot" },
+  { name: "Contacto", url: "/es/contacto" },
 ];
 
 const footerLinks = [

@@ -1,19 +1,20 @@
 
 const navBarLinks = [
   { name: "Inicio", url: "/es" },
-  { name: "Habitaciones", url: "/es/habitaciones" },
-  { name: "Servicios", url: "/es/servicios" },
-  { name: "Blog", url: "/es/blog" },
+  { name: "Habitaciones", url: "#" },
+  { name: "Servicios", url: "#" },
+  { name: "Blog", url: "#" },
   { name: "Contacto", url: "/es/contacto" },
 ];
 
 const footerLinks = [
   {
-    section: "Ecosistema",
+    section: "Sobre nosotros",
     links: [
-      { name: "Documentación", url: "/es/documentacion/" },
-      { name: "Herramientas y equipamientos", url: "/es/productos" },
-      { name: "Servicios de construcción", url: "/es/servicios" },
+      { name: "Términos y condiciones de servicio", url: "#" },
+      { name: "Nuestras habitaciones", url: "#" },
+      { name: "Servicio de reservación", url: "#" },
+      { name: "Métodos de pago", url: "#" },
     ],
   },
   {
